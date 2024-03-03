@@ -1,0 +1,393 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border-color: #F8F9FA;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-collapse {
+    margin-top: 05px;
+    background-color: white;
+}
+.bg-dark {
+    background-color: #F8F9FA !important;
+    height: 56px;
+}
+
+.navbar {
+    height: 56px;
+    margin-left: 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 16px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.apple-support {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.apple-support h2 {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 50px;
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -0.009em;
+}
+
+.support {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.iphone {
+    text-align: center;
+    margin: 30px;
+}
+
+.iphone img {
+    max-width: 70%;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #F5F5F7;
+    margin: 10px;
+}
+
+.box {
+    display: flex;
+    margin-top: 68px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box-container img {
+    max-width: 60px;
+    max-height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.text p {
+    color: #0066cc;
+    letter-spacing: inherit;
+}
+
+.text p:hover {
+    text-decoration: underline;
+}
+
+
+/* Bootstrap 5 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    margin-top: 10px
+}
+
+.search_section h2 {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 68px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+
+.form-group {
+    margin-top: 58px;
+}
+
+input.form-control {
+    height: 58px;
+    border-radius: 10px;
+    margin-bottom: 65px;
+}
+
+.ytcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ytbox {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.ytbox h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ytbox p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bgcolor {
+    background-color: #F5F5F7;
+}
+
+.ytbox a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.fullcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ytbox a:hover {
+    text-decoration: underline;
+}
+
+.ytbox img {
+    max-width: 100%;
+    background-size: cover;
+    height: auto;
+}
+
+.fullbox {
+    width: calc(75% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.fullbox:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.fullbox:nth-child(even) {
+    margin-left: 10px;
+}
+
+.fullbox h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fullbox p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fullbox a {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
+
+.fullbox a:first-child {
+    background-color: black;
+    color: white;
+}
+
+.fullbox img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.second-column {
+    width: calc(25% - 10px);
+}
+
+.twobox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 68%;
+    padding: 20px;
+    background-color: white;
+}
+
+.box2 {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+}
+
+.program h2 {
+    color: #0066cc;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: 0.009em;
+}
+
+.program h2:hover {
+    text-decoration: underline;
+}
+
+.page-footer {
+    background-color: #f5f5f7 !important;
+}
+
+.twobox h2 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: 0.009em;
+}
+
+.twobox p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.twobox a {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.twobox p span {
+    color: #0066cc;
+}
+
+.program {
+    margin-top: 58px;
+}
+
+.program h1 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: 0.009em;
+}
+
+@media only screen and (max-width: 768px) {
+    .apple-support h2 {
+        font-size: 36px;
+    }
+    .support{
+        flex-wrap: wrap;
+    }
+    .box {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .fullbox{
+        width:100%
+    }
+    .box1{
+        width: 100%;
+        margin: 10px;
+    }
+    .box2{
+        width: 100%;
+        margin: 10px;
+    }
+    .twobox {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .apple-support h2 {
+        font-size: 36px;
+    }
+    .search_section h2{
+        font-size: 26px;
+    }
+    .support{
+        display: block;
+    }
+    .fullbox{
+        width:100%
+    }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    
+}
